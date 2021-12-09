@@ -3,7 +3,7 @@ This project lays out an application for Android based on artificial intelligenc
 # Supported Devices
 The project is developed in Android Studio Arctic Fox | 2020.3.1 Patch 3 for cell phones with the operating system "".
 # Screenshots
-https://github.com/jastk45/team-mobile/blob/125d70bdedeff7240ec36d746a8b9ff8b84a4ffe/app%20(1).jpeg
+(https://github.com/jastk45/team-mobile/blob/125d70bdedeff7240ec36d746a8b9ff8b84a4ffe/app%20(1).jpeg)
 
 # Import Project on Android Studio
 1. Download the project from GitHub
