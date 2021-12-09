@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.codelabs.objectdetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:5:5-64
+11-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:6:5-80
+12-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:7:5-79
+13-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:7:22-77
+14
+15    <queries>
+15-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:9:5-13:15
+16        <intent>
+16-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:10:9-12:18
+17            <action android:name="android.media.action.IMAGE_CAPTURE" />
+17-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:11:13-73
+17-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:11:21-70
+18        </intent>
+19        <!-- Query Open Document -->
+20        <intent>
+20-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:16:9-18:18
+21            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+21-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:17:13-79
+21-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:17:21-76
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26
+27    <application
+27-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:15:5-39:19
+28        android:allowBackup="true"
+28-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:16:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.3.2] /home/stadyn/.gradle/caches/transforms-2/files-2.1/f4726924add2327517ec5f23b6aa3aba/core-1.3.2/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@drawable/logocccyt"
+32-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:17:9-43
+33        android:label="@string/app_name"
+33-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:18:9-41
+34        android:roundIcon="@drawable/logocccyt"
+34-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:19:9-48
+35        android:supportsRtl="true"
+35-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:20:9-35
+36        android:theme="@style/Theme.ObjectDetection" >
+36-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:21:9-53
+37        <activity android:name="org.tensorflow.codelabs.objectdetection.MainActivity" >
+37-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:22:9-28:20
+37-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:22:19-86
+38            <intent-filter>
+38-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:23:13-27:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:24:17-69
+39-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:24:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:26:17-77
+41-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:26:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+45-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:30:9-38:20
+46            android:name="androidx.core.content.FileProvider"
+46-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:31:13-62
+47            android:authorities="org.tensorflow.codelabs.objectdetection.fileprovider"
+47-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:32:13-87
+48            android:exported="false"
+48-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:33:13-37
+49            android:grantUriPermissions="true" >
+49-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:34:13-47
+50            <meta-data
+50-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:35:13-37:54
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:36:17-67
+52                android:resource="@xml/file_paths" />
+52-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:37:17-51
+53        </provider>
+54
+55        <activity
+55-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:22:9-25:68
+56            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+56-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:23:13-81
+57            android:screenOrientation="unspecified"
+57-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:24:13-52
+58            android:theme="@style/Theme.Transparent.ImagePicker" />
+58-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:25:13-65
+59        <activity
+59-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:26:9-29:72
+60            android:name="com.yalantis.ucrop.UCropActivity"
+60-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:27:13-60
+61            android:screenOrientation="portrait"
+61-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:28:13-49
+62            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+62-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:29:13-69
+63
+64        <provider
+64-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:31:9-39:20
+65            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+65-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:32:13-85
+66            android:authorities="org.tensorflow.codelabs.objectdetection.imagepicker.provider"
+66-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:33:13-72
+67            android:exported="false"
+67-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:34:13-37
+68            android:grantUriPermissions="true" >
+68-->[com.github.dhaval2404:imagepicker:2.1] /home/stadyn/.gradle/caches/transforms-2/files-2.1/1b10ccc71a821435bebb4882826cb25f/jetified-imagepicker-2.1/AndroidManifest.xml:35:13-47
+69            <meta-data
+69-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:35:13-37:54
+70                android:name="android.support.FILE_PROVIDER_PATHS"
+70-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:36:17-67
+71                android:resource="@xml/image_picker_provider_paths" />
+71-->/home/stadyn/Documents/Clases Yachay/Software Engineering/final_revised/app/src/main/AndroidManifest.xml:37:17-51
+72        </provider>
+73    </application>
+74
+75</manifest>
